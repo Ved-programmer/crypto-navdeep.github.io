@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* Navbar */
+
+.navbar {
+    background-color: black;
+    font-family: 'Caveat', cursive;
+}
+
+
+/* intro */
+
+.intro {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.intro .intro-content {
+    text-align: center;
+    position: absolute;
+}
+
+.intro .overlay-intro {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro .intro-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+}
+
+@media (min-width: 768px) {
+    .intro .intro-title {
+        font-size: 4.5rem;
+    }
+}
+
+.intro .intro-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Caveat', cursive;
+}
+
+@media (min-width: 768px) {
+    .intro .intro-subtitle {
+        font-size: 2.5rem;
+    }
+}
+
+.intro-single {
+    height: 350px;
+}
+
+.intro-single .intro-content {
+    margin-top: 30px;
+}
+
+.intro-single .intro-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .intro-single .intro-title {
+        font-size: 3.5rem;
+    }
+}
+
+.display-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* Intro End */
+
+
+/* About */
+
+.about-img img {
+    min-width: 30px;
+    height: auto;
+}
+
+#about-content {
+    text-align: left !important;
+}
+
+
+/* About End */
+
+
+/* Footer */
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+
+/* Footer End */
+
+
+/* Custom Edits*/
+
+#font_caveat {
+    font-family: 'Caveat', cursive;
+}
