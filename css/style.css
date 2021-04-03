@@ -16,12 +16,12 @@
     color: #fff;
 }
 
-.intro .intro-content {
+.intro-content {
     text-align: center;
     position: absolute;
 }
 
-.intro .overlay-intro {
+.overlay-intro {
     background-color: black;
     position: absolute;
     top: 0;
@@ -31,7 +31,7 @@
     width: 100%;
 }
 
-.intro .intro-title {
+.intro-title {
     color: #fff;
     font-weight: 600;
     font-size: 3rem;
@@ -51,7 +51,7 @@
 }
 
 @media (min-width: 768px) {
-    .intro .intro-subtitle {
+    .intro-subtitle {
         font-size: 2.5rem;
     }
 }
@@ -60,17 +60,16 @@
     height: 350px;
 }
 
-.intro-single .intro-content {
+.intro-content {
     margin-top: 30px;
 }
 
-.intro-single .intro-title {
-    text-transform: uppercase;
+.intro-title {
     font-size: 3rem;
 }
 
 @media (min-width: 768px) {
-    .intro-single .intro-title {
+    .intro-title {
         font-size: 3.5rem;
     }
 }
